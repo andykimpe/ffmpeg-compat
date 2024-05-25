@@ -26,6 +26,9 @@ Patch2:         0002-Add-unconditional-return-statement-to-yuva420_rgb32_.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  bzip2-devel
+BuildRequires:  gnutls-devel
+BuildRequires:  librtmp-devel
+BuildRequires:  rtmpdump
 %{?!_without_dirac:BuildRequires: dirac-devel}
 %{?_with_faac:BuildRequires: faac-devel}
 BuildRequires:  gsm-devel
