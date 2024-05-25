@@ -10,7 +10,7 @@
 Summary:        Digital VCR and streaming server
 Name:           ffmpeg-compat
 Version:        0.6.7
-Release:        4%{?dist}
+Release:        5%{?dist}
 %if 0%{?_with_amr:1}
 License:        GPLv3+
 %else
